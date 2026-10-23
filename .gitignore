@@ -1,0 +1,57 @@
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+playwright-report/
+test-results/
+
+# Python / Backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+.venv-*/
+venv/
+env/
+
+# Environment & Secrets (keep .env.example tracked)
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+voice-agent/.env
+voice-agent/.env.*
+
+# Local Databases & Runtime Storage
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+storage/
+backend/storage/
+.local-smoke-test/
+.*backup*
+
+# Model Caches & Local Verification Scratch Outputs
+models/
+.cache/
+huggingface_cache/
+paddleocr_cache/
+backend/out.txt
+backend/verification_output.txt
+backend/verification_result.txt
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.log
